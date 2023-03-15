@@ -1,0 +1,80 @@
+*{margin:0 ;
+padding: 0;
+ box-sizing: border-box; }
+header{
+  width: 100%;
+  line-height: 15vh;
+  background-color: #229954;
+ }
+ h1{
+  font-size: 1.8rem;
+  font-family: monospace;
+text-align: center;
+ text-transform: capitalize;
+letter-spacing: 10px;
+color: aliceblue;
+}
+section{
+  background-color: #58D68D;
+  height: 85vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gamearea{
+  width: 50%;
+  height: 400px;
+  background-color: #0B5345;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 10px 15px 29px 7px black;
+}
+
+.gamearea:hover{
+  border-top: 3px solid gold;
+  border-bottom:3px solid #66FF33 ;
+  border-left:3px solid #FF9900;
+  border-right:3px solid #0033FF ;
+  
+}
+
+h3{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: cursive;
+}
+input{
+  width: 40%;
+  padding: 15px 0;
+  text-align: center;
+  font-family: cursive;
+  border-radius: 25px;
+  border: 1px soid wheat;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 700;
+outline: none;
+margin: 2rem 0;
+}
+button{
+  font-size: 1rem;
+  color: black;
+  background-color: gray; 
+
+}
+button.btn{
+font-weight: 500;
+text-transform: capitalize;
+padding: .8rem 1.5rem;
+border-radius: 15px;
+cursor: pointer;
+
+}
+.hidden{
+  display: none;
+}
+
